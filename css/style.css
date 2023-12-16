@@ -1,0 +1,13 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 800;
+    font-size: 70px;
+}
