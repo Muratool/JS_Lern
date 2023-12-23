@@ -494,3 +494,33 @@
 // console.log(factorio(9));
 
 
+
+
+// _____________________РЕДИ ЫЫЫЫЫЫЫЫЫЫЫЫЫАААААААААААААААААААААААААА________________________
+
+function Test(arr){
+    let L = arr.length - 1;
+
+    for (let i = 0; i <= L; i++){
+        
+        if (typeof(arr[i]) === 'number'){
+            Resp.push(arr[i]);
+        } else{
+            Test(arr[i]);
+        }
+    }
+
+    return Resp;
+}
+
+let Arr = [1,[2,[3,[4,[5,[6, 7]]]]]];
+let Resp = new Array;
+
+let otv = Test(Arr);
+
+// for (let i = 0; i <= )
+
+console.log(otv);
+console.log(Arr.length);
+
+
